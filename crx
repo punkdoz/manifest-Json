@@ -5,13 +5,13 @@
    "content_scripts": [ {
       "all_frames": true,
       "include_globs": [ "http://*/*", "https://*/*" ],
-      "js": [ "jquery-2.0.3.min.js", "get_zynga.js" ],
+      "js": [ "jquery-2.0.3.min.js", "get_example.js" ],
       "matches": [ "http://*/*", "https://*/*" ],
       "run_at": "document_end"
    } ],
-   "description": "Zynga Poker Extention  v5.3",
+   "description": "example Extention  v5.3",
    "icons": {
-      "128": "icon_128.png"
+      "128": "icon_example.png"
    },
    "manifest_version": 2,
    "name": "Zynga Poker Extention  v5.3",
